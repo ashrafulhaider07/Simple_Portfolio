@@ -1,4 +1,4 @@
-*{
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,11 +9,12 @@ nav{
     display: flex;
     align-items: center;
     gap: 10px;
-    justify-content: center
+    justify-content: center;
 }
 nav img{
     height: 50px;
     width: 135px;
+
 }
 ul{
     display: flex;
