@@ -9,11 +9,11 @@ nav{
     display: flex;
     align-items: center;
     gap: 10px;
-    justify-content: center;
+    justify-content: space-around;
 }
 nav img{
     height: 50px;
-    width: 135px;
+    width: 50px;
 
 }
 ul{
@@ -27,20 +27,21 @@ ul li{
     list-style: none;
     background-color: rgb(255, 255, 255);
 }
-ul li:hover{   
-    background-color: rgb(247, 0, 255);
-    transition: all .4s ease;
-    color: aliceblue;
-}
 ul li a{
     text-decoration: none;
-    padding: 20px 42px;
+    padding: 22px 42px;
     color: black;
     font-size: 18px;
+    transition: all .4s ease;
+    border-radius: 8px;
 }
 ul li a:hover{
-    background-color: rgb(234, 249, 255);
-    /* color: aliceblue; */
+    background-color: rgb(136, 0, 255);
+    color: aliceblue;
+}
+.search{
+    padding: 10px;
+    border-radius: 60px;
 }
 
 
@@ -112,7 +113,6 @@ ul li a:hover{
     /* transition: all .4s ease; */
     background-position: right;
 }
-
 
 
 
